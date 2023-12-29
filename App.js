@@ -9,7 +9,6 @@ export default function Empresa() {
   const [logoSource, setLogoSource] = useState(null);
   const [logoSourceBG, setLogoSourceBG] = useState(null);
 
-
   useEffect(() => {
     const fetchData = async () => {
       try {
